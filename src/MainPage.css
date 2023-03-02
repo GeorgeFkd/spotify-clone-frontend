@@ -1,0 +1,17 @@
+.mainpage {
+  display: flex;
+  flex-direction: column;
+}
+
+/* targets the welcoming p tag */
+.mainpage__recent__playlists__title p:first-child {
+  font-size: 2rem;
+}
+
+.mainpage__recent__playlists {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

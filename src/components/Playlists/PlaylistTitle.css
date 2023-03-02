@@ -1,0 +1,52 @@
+.playlist__top {
+  display: flex;
+  margin-top: 3rem;
+  align-items: flex-end;
+  gap: var(--normal-gap);
+}
+
+.playlist__top > img {
+  height: 10rem;
+  width: 10rem;
+  box-shadow: 2px 2px 2px 2px gray !important;
+  -webkit-user-drag: none;
+}
+
+.playlist__top__title {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist__top__info {
+  display: flex;
+  gap: var(--small-gap);
+}
+
+.playlist__top__info span {
+  font-weight: 700;
+}
+
+.playlist__top__title p {
+  font-weight: 700;
+  font-size: 3.5rem;
+  user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+
+.playlist__top__info > .MuiAvatar-root {
+  height: 1.5rem !important;
+  width: 1.5rem !important;
+}
+
+.playlist__top__info > span:hover {
+  text-decoration: underline;
+}
+
+.playlist__top__info > ul li {
+  display: inline;
+
+  color: var(--faded);
+}

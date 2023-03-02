@@ -1,0 +1,46 @@
+.mainpage__top {
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: rgb(201, 193, 193);
+  gap: 1rem;
+}
+.navigation {
+  display: flex;
+}
+
+.navigation > * {
+  cursor: pointer;
+}
+
+.mainpage__top > .MuiSvgIcon-root {
+  cursor: pointer;
+}
+
+.mainpage__top__buttons {
+  display: flex;
+  gap: 1rem;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.mainpage__top__buttons > .MuiChip-root {
+  font-size: 1.2rem;
+  border: 2px solid black;
+}
+
+.mainpage__top__buttons > .MuiChip-root:first-of-type:hover {
+  transform: scale(1.1);
+}
+
+.mainpage__top__buttons > .MuiChip-root:first-of-type {
+  transition: transform 125ms;
+}
+
+.mainpage__profile__dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 3.5rem;
+  right: 1rem;
+}

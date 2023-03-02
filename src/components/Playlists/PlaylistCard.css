@@ -1,0 +1,29 @@
+.playlistCard {
+  display: flex;
+  background-color: gray;
+  width: 20rem;
+
+  transition-duration: 175ms;
+  transition-property: background-color;
+  align-items: center;
+  gap: 1rem;
+}
+
+.playlistCard:hover {
+  background-color: whitesmoke;
+}
+
+.playlistCard > p {
+  color: blue;
+}
+
+.playlistCard > img {
+  object-fit: contain;
+  height: 5rem;
+}
+
+.playlistCard > .MuiSvgIcon-root {
+  margin-left: auto;
+  margin-right: 2rem;
+  color: greenyellow;
+}

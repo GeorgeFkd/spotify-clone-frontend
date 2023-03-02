@@ -1,0 +1,15 @@
+.playlist__controls {
+    margin-top: var(--normal-gap);
+    display: flex;
+    gap: var(--normal-gap);
+    align-items: center;
+}
+
+.playlist__controls .MuiSvgIcon-root {
+    cursor: pointer;
+    transform: scale(1.8);
+}
+
+.playlist__controls > {
+    color: "green" !important;
+}

@@ -1,0 +1,38 @@
+.playlist__entry__row:hover {
+    background-color: #e09f18;
+}
+.playlist__entry__song {
+    display: flex;
+    flex-direction: column;
+}
+.playlist__entry__row {
+    display: flex;
+    gap: var(--normal-gap);
+}
+.playlist__entry__song > span:nth-of-type(2) {
+    width: fit-content;
+    cursor: pointer;
+    color: var(--faded);
+}
+
+.playlist__entry__song:hover > span:nth-of-type(2) {
+    color: var(--active);
+}
+
+.playlist__entry__song > span:nth-of-type(2):hover {
+    text-decoration: underline;
+}
+
+.playlist__entry__index {
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.playlist__entry__index > span {
+    margin-left: var(--small-gap);
+}
+
+.playlist__entry__index > span > span {
+    margin-left: var(--small-gap);
+}

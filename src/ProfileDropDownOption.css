@@ -1,0 +1,10 @@
+.prof__dropdown__option {
+  background-color: yellow;
+  display: flex;
+  width: 12rem;
+  border: 2px solid black;
+}
+
+.prof__dropdown__option > .MuiSvgIcon-root {
+  margin-left: auto;
+}

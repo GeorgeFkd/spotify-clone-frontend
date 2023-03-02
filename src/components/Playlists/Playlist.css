@@ -1,0 +1,46 @@
+.playlist {
+  margin-left: var(--normal-gap);
+}
+
+.playlist__allsongs__title {
+  margin-top: 2rem;
+  display: flex;
+  gap: var(--normal-gap);
+}
+
+.playlist__allsongs {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist__allsongs__title span {
+  font-weight: 700;
+  color: var(--faded);
+}
+
+.playlist__allsongs__title {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.playlist__allsongs__title__right {
+  margin-left: auto;
+  margin-right: 5rem;
+}
+
+.playlist__allsongs hr {
+  color: black;
+}
+
+.playlist__allsongs__entries {
+  margin-top: var(--normal-gap);
+  background-color: black;
+  color: var(--active);
+  display: flex;
+  flex-direction: column;
+
+  gap: var(--normal-gap);
+}
+
+/* to fix μετατοπιση του αριθμου onHover */

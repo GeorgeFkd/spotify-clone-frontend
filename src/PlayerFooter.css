@@ -1,0 +1,114 @@
+.playerfooter {
+  color: whitesmoke;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+
+  margin-left: var(--normal-gap);
+  background-color: black;
+}
+
+.playerfooter > * {
+  margin-top: var(--normal-gap);
+}
+.playerfooter .MuiSvgIcon-root {
+  color: var(--faded);
+}
+
+.playerfooter .MuiSvgIcon-root:hover {
+  color: var(--active);
+}
+
+.playerfooter__left {
+  display: flex;
+  gap: 1rem;
+}
+.playerfooter__song__image {
+  width: 3rem !important;
+  height: 3rem !important;
+}
+.playerfooter__current__song {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.playerfooter__current__song > *:hover {
+  text-decoration: underline;
+  color: var(--active);
+}
+
+/* targets song band */
+.playerfooter__current__song > span {
+  color: var(--faded);
+}
+
+.playerfooter__center__controls {
+  display: flex;
+  background-color: black;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.progressbar {
+  width: 200px;
+}
+
+.playerfooter__center {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+  gap: 1rem;
+}
+
+.progr > * {
+  background-color: var(--active);
+}
+
+.progr {
+  background-color: var(--faded);
+}
+
+.playerfooter__center__progressbar {
+  display: flex;
+  justify-content: center;
+  gap: var(--small-gap);
+}
+
+.playerfooter__center__progressbar > p {
+  position: relative;
+  bottom: var(--small-gap);
+}
+
+.mainControl {
+  transform: scale(1.8);
+}
+
+.playerfooter__right {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.VolumeBar {
+  margin-top: var(--small-gap);
+  width: 7rem;
+  cursor: pointer;
+  margin-right: 3rem;
+}
+
+.VolumeBar > * {
+  background-color: var(--active);
+}
+
+.VolumeBar {
+  background-color: var(--faded);
+}
+
+.VolumeBar:hover > * {
+  background-color: limegreen;
+}

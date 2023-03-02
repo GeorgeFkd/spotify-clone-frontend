@@ -1,0 +1,97 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  padding-left: 1rem;
+  height: 100vh;
+}
+.sidebar__top {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sidebar__top__logo {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.sidebar__top > * {
+  cursor: pointer;
+}
+
+.sidebar__top__logo > p {
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.sidebar__top__logo > img {
+  object-fit: contain;
+  height: 2.5rem;
+}
+
+.sidebar > hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar__top__extra {
+  margin-top: var(--normal-gap);
+  display: flex;
+  gap: var(--normal-gap);
+}
+
+.divider {
+  height: var(--normal-gap);
+  width: 100%;
+  cursor: default;
+}
+
+.sidebar__playlists {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  height: 32rem;
+  /* probably dynamically set */
+  width: 100%;
+  overflow-y: auto;
+}
+
+.sidebar__playlists::-webkit-scrollbar {
+  width: 1rem;
+}
+.sidebar__playlists::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+
+.sidebar__playlists::-webkit-scrollbar-thumb:hover {
+  background-color: lightslategray;
+}
+
+.sidebar__playlists::-webkit-scrollbar-track {
+  background: black;
+}
+
+.sidebar__playlists > p {
+  color: var(--faded);
+}
+
+.sidebar__playlists > p:hover {
+  color: var(--active);
+}
+
+.sidebar__downloadapp {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.sidebar__downloadapp > * {
+  color: var(--faded);
+}
+
+.sidebar__downloadapp:hover > * {
+  color: var(--active);
+}
